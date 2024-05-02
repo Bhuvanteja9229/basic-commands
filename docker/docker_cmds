@@ -1,0 +1,9 @@
+Basic Docker Commands:
+
+1. docker images => List images locally
+2. docker run    => Command to creatr a new container
+3. docker ps     => List running container
+4. docker ps -a  => Lists all the containers
+5. docker exec   => Executes commands on containers
+6. docker start/stop/restart/rm
+7. docker rmi    => Removes docker images
