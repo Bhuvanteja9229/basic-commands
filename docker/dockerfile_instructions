@@ -1,10 +1,15 @@
 Dockerfile Instructions :
 
-1. FROM		=>	Base Image
-2. LABLE	=>	Add Metadata to an image
-3. RUN		=>	Executes commands in a new layer & commits the results
-4. ADD/COPY	=>	Adds files and folders into the image
-5. CMD		=>	Runs binaries/commands on docker run
-6. ENTRYPOINT	=>	Allows you to configure a container that will run as an executable
-7. VOLUME	=>	Creates a mount point and marks it as holding externally mounted volumes
-8. EXPOSE	=>	Containe listens on the specified network port at runtime.
+01. FROM	=>	Base Image
+02. LABLE	=>	Add Metadata to an image
+03. RUN		=>	Executes commands in a new layer & commits the results
+04. ADD/COPY	=>	Adds files and folders into the image
+05. CMD		=>	Runs binaries/commands on docker run
+06. ENTRYPOINT	=>	Allows you to configure a container that will run as an executable
+07. VOLUME	=>	Creates a mount point and marks it as holding externally mounted volumes
+08. EXPOSE	=>	Containe listens on the specified network port at runtime.
+09. ENV		=>	Sets the environment variable
+10. USER	=>	Sets the username (or UID)
+11. WORKDIR	=>	Sets the working directory
+12. ARG		=>	Defines a variable that users can pass at build-time
+13. ONBUILD	=>	Adds to the image a trigger instruction to be executed at a later time
