@@ -1,0 +1,10 @@
+Dockerfile Instructions :
+
+1. FROM		=>	Base Image
+2. LABLE	=>	Add Metadata to an image
+3. RUN		=>	Executes commands in a new layer & commits the results
+4. ADD/COPY	=>	Adds files and folders into the image
+5. CMD		=>	Runs binaries/commands on docker run
+6. ENTRYPOINT	=>	Allows you to configure a container that will run as an executable
+7. VOLUME	=>	Creates a mount point and marks it as holding externally mounted volumes
+8. EXPOSE	=>	Containe listens on the specified network port at runtime
