@@ -13,3 +13,4 @@ Dockerfile Instructions :
 11. WORKDIR	=>	Sets the working directory
 12. ARG		=>	Defines a variable that users can pass at build-time
 13. ONBUILD	=>	Adds to the image a trigger instruction to be executed at a later time
+14.
