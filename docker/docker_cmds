@@ -7,6 +7,6 @@ Basic Docker Commands:
 05. docker exec          =>      Executes commands on containers
 06. docker start/stop/restart/rm
 07. docker rmi           =>      Removes docker images
-08. docker build -t <Dockerfile> </pathOfThatDockerfile>
+08. docker build -t <Dockerfile> </pathOfThatDockerfile> => This will helps to build your own docker container
 09.
 10
